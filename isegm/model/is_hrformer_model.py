@@ -3,9 +3,9 @@ import torch.nn as nn
 
 from collections import OrderedDict
 
-from isegm.utils.serialization import serialize
+from app.SimpleClick.isegm.utils.serialization import serialize
 from .is_model import ISModel
-from isegm.model.modifiers import LRMult
+from app.SimpleClick.isegm.model.modifiers import LRMult
 from .modeling.hrformer import HRT_B_OCR_V3
 
 class HRFormerModel(ISModel):

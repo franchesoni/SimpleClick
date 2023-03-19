@@ -6,9 +6,9 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-from isegm.data.base import ISDataset
-from isegm.data.sample import DSample
-from isegm.utils.misc import get_labels_with_sizes
+from app.SimpleClick.isegm.data.base import ISDataset
+from app.SimpleClick.isegm.data.sample import DSample
+from app.SimpleClick.isegm.utils.misc import get_labels_with_sizes
 
 
 class ADE20kDataset(ISDataset):

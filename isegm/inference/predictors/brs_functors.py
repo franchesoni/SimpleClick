@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 
-from isegm.model.metrics import _compute_iou
+from app.SimpleClick.isegm.model.metrics import _compute_iou
 from .brs_losses import BRSMaskLoss
 
 

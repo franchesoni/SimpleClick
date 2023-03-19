@@ -1,4 +1,4 @@
-from isegm.utils.serialization import serialize
+from app.SimpleClick.isegm.utils.serialization import serialize
 from .is_model import ISModel
 from .modeling.swin_transformer import SwinTransformer, SwinTransfomerSegHead
 

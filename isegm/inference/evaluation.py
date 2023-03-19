@@ -3,8 +3,8 @@ from time import time
 import numpy as np
 import torch
 
-from isegm.inference import utils
-from isegm.inference.clicker import Clicker
+from app.SimpleClick.isegm.inference import utils
+from app.SimpleClick.isegm.inference.clicker import Clicker
 
 try:
     get_ipython()

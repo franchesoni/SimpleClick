@@ -1,7 +1,7 @@
 import torch
 import math
-from isegm.utils.log import logger
-import isegm.utils.lr_decay as lrd
+from app.SimpleClick.isegm.utils.log import logger
+import app.SimpleClick.isegm.utils.lr_decay as lrd
 
 def get_optimizer(model, opt_name, opt_kwargs):
     params = []

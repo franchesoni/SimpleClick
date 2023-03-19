@@ -1,10 +1,10 @@
 import torch.nn as nn
 
-from isegm.utils.serialization import serialize
+from app.SimpleClick.isegm.utils.serialization import serialize
 from .is_model import ISModel
 from .modeling.deeplab_v3 import DeepLabV3Plus
 from .modeling.basic_blocks import SepConvHead
-from isegm.model.modifiers import LRMult
+from app.SimpleClick.isegm.model.modifiers import LRMult
 
 
 class DeeplabModel(ISModel):

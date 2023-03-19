@@ -1,8 +1,8 @@
 import torch
 
 from typing import List
-from isegm.inference.clicker import Click
-from isegm.utils.misc import get_bbox_iou, get_bbox_from_mask, expand_bbox, clamp_bbox
+from app.SimpleClick.isegm.inference.clicker import Click
+from app.SimpleClick.isegm.utils.misc import get_bbox_iou, get_bbox_from_mask, expand_bbox, clamp_bbox
 from .base import BaseTransform
 
 

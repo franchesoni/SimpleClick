@@ -10,11 +10,11 @@ import numpy as np
 from tqdm import tqdm
 from torch.utils.data import DataLoader
 
-from isegm.utils.log import logger, TqdmToLogger, SummaryWriterAvg
-from isegm.utils.vis import draw_probmap, draw_points
-from isegm.utils.misc import save_checkpoint
-from isegm.utils.serialization import get_config_repr
-from isegm.utils.distributed import get_dp_wrapper, get_sampler, reduce_loss_dict
+from app.SimpleClick.isegm.utils.log import logger, TqdmToLogger, SummaryWriterAvg
+from app.SimpleClick.isegm.utils.vis import draw_probmap, draw_points
+from app.SimpleClick.isegm.utils.misc import save_checkpoint
+from app.SimpleClick.isegm.utils.serialization import get_config_repr
+from app.SimpleClick.isegm.utils.distributed import get_dp_wrapper, get_sampler, reduce_loss_dict
 from .optimizer import get_optimizer, get_optimizer_with_layerwise_decay
 
 

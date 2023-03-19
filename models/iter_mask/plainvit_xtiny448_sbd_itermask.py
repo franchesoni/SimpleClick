@@ -1,5 +1,5 @@
-from isegm.utils.exp_imports.default import *
-from isegm.model.modeling.transformer_helper.cross_entropy_loss import CrossEntropyLoss
+from app.SimpleClick.isegm.utils.exp_imports.default import *
+from app.SimpleClick.isegm.model.modeling.transformer_helper.cross_entropy_loss import CrossEntropyLoss
 
 MODEL_NAME = 'sbd_plainvit_xtiny448'
 

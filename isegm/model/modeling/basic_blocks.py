@@ -1,6 +1,6 @@
 import torch.nn as nn
 
-from isegm.model import ops
+from app.SimpleClick.isegm.model import ops
 
 
 class ConvHead(nn.Module):
