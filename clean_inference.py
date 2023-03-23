@@ -77,7 +77,9 @@ def my_load(zip_file, map_location, pickle_module, pickle_file='data.pkl', **pic
 
 torch.serialization._load = my_load
 
-def load_controller():
+def load_controller(logger=None):
+    if logger:
+        logger.info('Loading simpleclick controller...')
     checkpoint_path = utils.find_checkpoint('/code/app/weights/simpleclick_models/', 'cocolvis_vit_base.pth')
 
     torch.backends.cudnn.deterministic = True
